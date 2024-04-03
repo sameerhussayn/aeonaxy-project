@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Gilory-Regular';
+  src: url('/fonts/Gilroy-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Gilory-Bold';
+  src: url('/fonts/Gilroy-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Gilory-Heavy';
+  src: url('/fonts/Gilroy-Heavy.ttf');
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
